@@ -1,5 +1,5 @@
 # my scrapper does work, but 
-# the whole content is on only one column
+# the whole content is inside only one column
 
 # we should have six columns; check the website
 
