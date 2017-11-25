@@ -35,8 +35,8 @@
   <p>para ajudar na limpeza de dados do google sheets:
   https://www.aubrett.com/article/information-technology/productivity/google-docs/left-mid-right</p>
 
-<b>mentiras, mentiras deslavadas e estatísticas</b>
+<b>mentiras, mentiras deslavadas e estatísticas - daniel mariani</b>
 </br>
 <ul>
-  
+  <li>https://www.youtube.com/watch?v=14VYnFhBKcY</li>
 </ul>
