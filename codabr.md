@@ -48,3 +48,16 @@
   <li>https://medium.com/labcodes/graph-databases-discutindo-o-relacionamento-dos-seus-dados-com-python-79688b557eec</li>
   <li>https://speakerdeck.com/labcodes/graph-databases-discutindo-o-relacionamento-dos-seus-dados-com-python</li>
   
+  CREATE (joao:User {name:"Joao", idade:"24"})
+  RETURN joao
+  
+  CREATE (gcaesar:User {name:"Joana", idade:"25", genero:"f" })
+  RETURN gcaesar
+
+  MATCH (gcaesar:User {name:"Gabriela"}), (joao:User {name:"Joao"})
+  CREATE (gcaesar)-[r:FOLLOWS {date:"28-11-25"}]->(joao)
+  RETURN gcaesar, joao
+  
+  MATCH (n1)-[:FRIENDS_WITH]->(n2)
+  RETURN n1, n2
+  
