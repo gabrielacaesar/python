@@ -14,6 +14,7 @@
   <li>extremos</li>
   <li>tendências (séries temporais)</li>
   <li>se o desvio padrão é alto, a média não é muito representativa</li>
+  <li>no google sheets, a fórmula desvpad calcula o desvio padrão</li>
  </ul>
 
 <b>mentiras, mentiras deslavadas e estatísticas</b>
