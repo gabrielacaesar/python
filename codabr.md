@@ -5,8 +5,18 @@
   <li>http://www.visualisingdata.com/</li>
   <li>https://datavizcatalogue.com/</li>
  </ul>
+ <p>busca avançada do google</p>
+ <p>o que procurar:</p>
+ <ul>
+  <li>padroões</li>
+  <li>valores médios</li>
+  <li>pontos fora da curva</li>
+  <li>extremos</li>
+  <li>tendências (séries temporais)</li>
+  <li>se o desvio padrão é alto, a média não é muito representativa</li>
+ </ul>
 
-<b>mentiras, mentiras deslavadas e estatisticas</b>
+<b>mentiras, mentiras deslavadas e estatísticas</b>
 </br>
 <ul>
   
