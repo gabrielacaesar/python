@@ -19,6 +19,9 @@
  
  <p>para usar com o google sheets:
  https://chrome.google.com/webstore/detail/power-tools/dofhceeoedodcaheeoacmadcpegkjobi</p>
+ 
+ <p>para analisar a raça/cor da população brasileira e encontrar outros datasets:
+  https://sidra.ibge.gov.br/</p>
 
 <b>mentiras, mentiras deslavadas e estatísticas</b>
 </br>
