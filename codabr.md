@@ -1,6 +1,6 @@
 <h1>CodaBR</h1>
-<h2>principais links e ideias dos workshops a que fui</h2>
-<h5>sábado, 25 de novembro</h5>
+<h3>principais links e ideias dos workshops a que fui</h3>
+<h4>sábado, 25 de novembro</h4>
 <b>ddj whatsapp group</b>
 <b>ddj whatsapp group</b>
 <p>podcasts</p>
@@ -65,5 +65,5 @@
   MATCH (n1)-[:FRIENDS_WITH]->(n2)
   RETURN n1, n2
   
-  <h5>domingo, 26 de novembro</h5>
+  <h4>domingo, 26 de novembro</h4>
   <p>work in progress</p>
