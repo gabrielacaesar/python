@@ -1,3 +1,12 @@
+<b>ddj whatsapp group</b>
+<p>podcasts</p>
+<ul>
+  <li>https://www.hackedpodcast.com/</li>
+  <li>https://www.oreilly.com/topics/oreilly-programming-podcast</li>
+  <li>https://www.oreilly.com/topics/oreilly-data-show-podcast</li>
+</ul>
+
+
 <b>toolkit essencial do lobo solitário - juan torres (escola de dados)</b>
 </br>
 <ul>
