@@ -8,7 +8,7 @@
  <p>busca avançada do google</p>
  <p>o que procurar:</p>
  <ul>
-  <li>padroões</li>
+  <li>padrões</li>
   <li>valores médios</li>
   <li>pontos fora da curva</li>
   <li>extremos</li>
@@ -16,6 +16,9 @@
   <li>se o desvio padrão é alto, a média não é muito representativa</li>
   <li>no google sheets, a fórmula desvpad calcula o desvio padrão</li>
  </ul>
+ 
+ <p>para usar com o google sheets:
+ https://chrome.google.com/webstore/detail/power-tools/dofhceeoedodcaheeoacmadcpegkjobi</p>
 
 <b>mentiras, mentiras deslavadas e estatísticas</b>
 </br>
