@@ -22,6 +22,9 @@
  
  <p>para analisar a raça/cor da população brasileira por municípios e encontrar outros datasets:
   https://sidra.ibge.gov.br/</p>
+  
+  <p>para ajudar na limpeza de dados do google sheets:
+  https://www.aubrett.com/article/information-technology/productivity/google-docs/left-mid-right</p>
 
 <b>mentiras, mentiras deslavadas e estatísticas</b>
 </br>
