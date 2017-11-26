@@ -76,4 +76,5 @@
   <li>https://github.com/gabrielacaesar/studyingPython/blob/master/raspa03-copa2014-codabr.py</li>
   <li>https://github.com/gabrielacaesar/studyingPython/blob/master/raspaUSP-codabr.py</li>
   <li>https://github.com/mrmorais/uber-map-natal</li>
+  <li>dica de curso de raspagem focado em jornalista (em inglês): https://github.com/stanfordjournalism/search-script-scrape</li>
   </ul>
