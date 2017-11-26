@@ -72,4 +72,8 @@
   <li>http://www.cnj.jus.br/bnmp</li>
   <li>https://github.com/stanfordjournalism/search--scrape</li>
   <li>para usar com script que raspa <i>tweets</i> sobre 'lava jato', o bd recomendado é o mongodb [https://www.mongodb.com/]</li>
+  <li>https://github.com/JonasCz/How-To-Prevent-Scraping</li>
+  <li>https://github.com/gabrielacaesar/studyingPython/blob/master/raspa03-copa2014-codabr.py</li>
+  <li>https://github.com/gabrielacaesar/studyingPython/blob/master/raspaUSP-codabr.py</li>
+  <li>https://github.com/mrmorais/uber-map-natal</li>
   </ul>
