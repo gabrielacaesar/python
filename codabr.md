@@ -44,7 +44,7 @@
   <li>https://www.youtube.com/watch?v=14VYnFhBKcY</li>
 </ul>
 
-<b>Graph Databases: Discutindo o Relacionamento dos seus Dados com Python</b>
+<b>Graph Databases: Discutindo o Relacionamento dos seus Dados com Python - nicolle cysneiros</b>
 <p>install neo4j and python 3</p>
 <ul>
   <li>https://github.com/nicysneiros/palestra-graph-db</li>
