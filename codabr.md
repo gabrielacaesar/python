@@ -69,7 +69,7 @@
   <p>bootcamp sobre raspagem de dados - fernando masanori</p>
   <ul>
   <li>http://dontpad.com/codabr</li>
-  <li>https://github.com/fmasanori/treinamento</li> >> repositórios raspa.zip e abraji.zip
+  <li>https://github.com/fmasanori/treinamento >> repositórios raspa.zip e abraji.zip</li>
   <li>http://www.cnj.jus.br/bnmp</li>
   <li>https://github.com/stanfordjournalism/search--scrape</li>
   </ul>
