@@ -65,7 +65,7 @@
   RETURN n1, n2
   
   <h4>domingo, 26 de novembro</h4>
-  <p>bootcamp sobre raspagem de dados - fernando masanori</p>
+  <p><b>bootcamp sobre raspagem de dados - fernando masanori</b></p>
   <ul>
   <li>http://dontpad.com/codabr</li>
   <li>https://github.com/fmasanori/treinamento >> repositórios raspa.zip e abraji.zip</li>
