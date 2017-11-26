@@ -72,4 +72,5 @@
   <li>https://github.com/fmasanori/treinamento >> repositórios raspa.zip e abraji.zip</li>
   <li>http://www.cnj.jus.br/bnmp</li>
   <li>https://github.com/stanfordjournalism/search--scrape</li>
+  <li>para usar com script que raspa <i>tweets</i> sobre 'lava jato', o bd recomendado é o mongodb [https://www.mongodb.com/]</li>
   </ul>
