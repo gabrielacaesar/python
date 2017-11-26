@@ -68,6 +68,7 @@
   <h4>domingo, 26 de novembro</h4>
   <p>bootcamp sobre raspagem de dados - fernando masanori</p>
   <ul>
+  <li>http://dontpad.com/codabr</li>
   <li>https://github.com/fmasanori/treinamento</li>
   <li>http://www.cnj.jus.br/bnmp</li>
   <li>https://github.com/stanfordjournalism/search--scrape</li>
