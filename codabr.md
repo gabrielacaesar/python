@@ -2,7 +2,6 @@
 <h3>principais links e ideias dos workshops a que fui</h3>
 <h4>sábado, 25 de novembro</h4>
 <b>ddj whatsapp group</b>
-<b>ddj whatsapp group</b>
 <p>podcasts</p>
 <ul>
   <li>https://www.hackedpodcast.com/</li>
