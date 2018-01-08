@@ -6,4 +6,4 @@ learning jupyter notebook with ben welsh >> http://www.firstpythonnotebook.org/ 
 
 learning jupyter notebook on data science academy >> https://www.datascienceacademy.com.br/
 
-learning python for journalists (knight center) >> http://journalismcourses.org/PJ1020.html
+learning python for journalists (knight center) >> http://journalismcourses.org/PJ1020.html [DONE]
