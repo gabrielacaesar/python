@@ -9,3 +9,5 @@ learning jupyter notebook on data science academy >> https://www.datascienceacad
 learning python for journalists (knight center) >> http://journalismcourses.org/PJ1020.html [DONE]
 
 learning python for data science and machine learning bootcamp (udemy) >> https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/
+
+introduction to data science in python (coursera) >> https://www.coursera.org/learn/python-data-analysis/
