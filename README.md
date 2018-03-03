@@ -2,6 +2,8 @@
 
 learning web scraping with python and libraries >> https://novatec.com.br/livros/web-scraping-com-python/
 
+Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython >> https://www.amazon.com/gp/product/1491957662
+
 learning jupyter notebook with ben welsh >> http://www.firstpythonnotebook.org/ [DONE]
 
 learning jupyter notebook on data science academy >> https://www.datascienceacademy.com.br/
