@@ -14,17 +14,16 @@ for n in range(0, len(url_list)):
   hora_n = []
   local_n = []
   evento_n = []
-  #evento_tipo_n = []
   link_n = []
   indice_n = []
   dados_n = []
+  url_n = []
 
   eventos = browser.find_elements_by_xpath('//a[@class="g-agenda__nome"]')
   data = browser.find_elements_by_xpath('//span[@class="g-agenda__data"]')
   hora = browser.find_elements_by_xpath('//span[@class="g-agenda__hora"]')
   local = browser.find_elements_by_xpath('//span[@class="g-agenda__categoria"]')
   evento = browser.find_elements_by_xpath('//a[@class="g-agenda__nome"]')
-  #evento_tipo = browser.find_elements_by_xpath('//span[@class="g-agenda__tipo"]')
   link = browser.find_elements_by_xpath('//a[@class="g-agenda__nome"]')
   
   for i in range(0, len(eventos)):
@@ -32,21 +31,31 @@ for n in range(0, len(url_list)):
     hora_2 = hora[i].text
     local_2 = local[i].text
     evento_2 = evento[i].text
-    #evento_tipo_2 = evento_tipo[i].text
     link_2 = link[i].get_attribute("href")
     indice = i
+    url = url_list[n]
+    print(url)
   
     data_n.append(data_2)
     hora_n.append(hora_2)
     local_n.append(local_2)
     evento_n.append(evento_2)
-    #evento_tipo_n.append(evento_tipo_2)
     link_n.append(link_2)
     indice_n.append(indice)
-    print('Entrando aqui/n \n')
-    print(indice, data_2, hora_2, local_2, evento_2, link_2)	
-
-    dados = {'data' : [data_n], 'hora' : [hora_n], 'local' : [local_n], 'evento' : [evento_n], 'link' : [link_n]}
+    url_n.append(url)
+   
+    data_df = pd.DataFrame(data_n)
+    hora_df = pd.DataFrame(hora_n)
+    local_df = pd.DataFrame(local_n)
+    evento_df = pd.DataFrame(evento_n)
+    link_df = pd.DataFrame(link_n)
+    indice_df = pd.DataFrame(indice_n)
+    url_df = pd.DataFrame(url_n)
+    
+    dados = {'data' : [data_df], 'hora' : [hora_df], 'local' : [local_df], 'evento' : [evento_df], 'link' : [link_df], 'url' : [url_df]}
     dados_n.append(dados)
+    
+df = pd.DataFrame(dados_n)
+df.to_csv('dados_n.csv', encoding='utf-8', index = False)
 
-#print(data_n, hora_n, local_n, evento_n, evento_tipo_n, link_n)
+
