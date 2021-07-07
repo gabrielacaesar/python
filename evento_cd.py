@@ -14,35 +14,39 @@ for n in range(0, len(url_list)):
   hora_n = []
   local_n = []
   evento_n = []
-  evento_tipo_n = []
+  #evento_tipo_n = []
   link_n = []
   indice_n = []
   dados_n = []
 
   eventos = browser.find_elements_by_xpath('//a[@class="g-agenda__nome"]')
-
+  data = browser.find_elements_by_xpath('//span[@class="g-agenda__data"]')
+  hora = browser.find_elements_by_xpath('//span[@class="g-agenda__hora"]')
+  local = browser.find_elements_by_xpath('//span[@class="g-agenda__categoria"]')
+  evento = browser.find_elements_by_xpath('//a[@class="g-agenda__nome"]')
+  #evento_tipo = browser.find_elements_by_xpath('//span[@class="g-agenda__tipo"]')
+  link = browser.find_elements_by_xpath('//a[@class="g-agenda__nome"]')
+  
   for i in range(0, len(eventos)):
-    data = browser.find_element_by_xpath('//span[@class="g-agenda__data"]')[i].text
-    hora = browser.find_element_by_xpath('//span[@class="g-agenda__hora"]').text
-    local = browser.find_element_by_xpath('//span[@class="g-agenda__categoria"]').text
-    evento = browser.find_element_by_xpath('//a[@class="g-agenda__nome"]').text
-    evento_tipo = browser.find_element_by_xpath('//span[@class="g-agenda__tipo"]').text
-    link = browser.find_element_by_xpath('//a[@class="g-agenda__nome"]').get_attribute("href")
+    data_2 = data[i].text
+    hora_2 = hora[i].text
+    local_2 = local[i].text
+    evento_2 = evento[i].text
+    #evento_tipo_2 = evento_tipo[i].text
+    link_2 = link[i].get_attribute("href")
     indice = i
   
-    data_n.append(data)
-    hora_n.append(hora)
-    local_n.append(local)
-    evento_n.append(evento)
-    evento_tipo_n.append(evento_tipo)
-    link_n.append(link)
+    data_n.append(data_2)
+    hora_n.append(hora_2)
+    local_n.append(local_2)
+    evento_n.append(evento_2)
+    #evento_tipo_n.append(evento_tipo_2)
+    link_n.append(link_2)
     indice_n.append(indice)
+    print('Entrando aqui/n \n')
+    print(indice, data_2, hora_2, local_2, evento_2, link_2)	
+
+    dados = {'data' : [data_n], 'hora' : [hora_n], 'local' : [local_n], 'evento' : [evento_n], 'link' : [link_n]}
+    dados_n.append(dados)
 
 #print(data_n, hora_n, local_n, evento_n, evento_tipo_n, link_n)
-#print(data, hora, local, evento, evento_tipo, link)
-
-    dados = {'data' : [data_n], 'hora' : [hora_n], 'local' : [local_n], 'evento' : [evento_n],
-'evento_tipo' : [evento_tipo_n], 'link' : [link_n]}
-    dados_n.append(dados)
-    
-    print(dados_n)
