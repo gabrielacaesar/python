@@ -22,7 +22,7 @@ for n in range(0, len(url_list)):
   eventos = browser.find_elements_by_xpath('//a[@class="g-agenda__nome"]')
 
   for i in range(0, len(eventos)):
-    data = browser.find_element_by_xpath('//span[@class="g-agenda__data"]').text
+    data = browser.find_element_by_xpath('//span[@class="g-agenda__data"]')[i].text
     hora = browser.find_element_by_xpath('//span[@class="g-agenda__hora"]').text
     local = browser.find_element_by_xpath('//span[@class="g-agenda__categoria"]').text
     evento = browser.find_element_by_xpath('//a[@class="g-agenda__nome"]').text
@@ -44,3 +44,5 @@ for n in range(0, len(url_list)):
     dados = {'data' : [data_n], 'hora' : [hora_n], 'local' : [local_n], 'evento' : [evento_n],
 'evento_tipo' : [evento_tipo_n], 'link' : [link_n]}
     dados_n.append(dados)
+    
+    print(dados_n)
