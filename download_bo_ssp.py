@@ -13,7 +13,7 @@ url = "http://www.ssp.sp.gov.br/transparenciassp/Consulta.aspx"
 driver.get(url)
 
 # clique na aba FURTO DE CELULAR - ok/funciona
-botao_furto = driver.find_element_by_link_text("FURTO DE CELULAR").click()
+driver.find_element_by_link_text("FURTO DE CELULAR").click()
 
 # clique no botão EXPORTAR - ok/funciona
 driver.find_element_by_css_selector("button[id*='cphBody_ExportarBOLink']").click()
